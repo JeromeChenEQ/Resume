@@ -50,11 +50,6 @@ const IntroColumn = () => (
       building things that matter: thoughtful products that are secure, intuitive, and genuinely useful to the
       people who rely on them.
     </p>
-    <p className="intro-text">
-      Outside the classroom, I have led backstage operations for campus events and work as a lighting
-      and sound designer for theatrical and musical productions — roles that have taught me much about the importance of
-      communication and coordination across teams.
-    </p>
 
     <div className="intro-stats">
       {stats.map(({ value, label }) => (

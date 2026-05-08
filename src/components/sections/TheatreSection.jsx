@@ -40,13 +40,13 @@ const productions = [
     folder: 'glam-night',
     roles: ['Lighting Designer', 'Sound System Designer'],
   },
-  {
-    id: 2,
-    title: 'Un Paso 2025',
-    subtitle: 'Ardiente Annual Production',
-    folder: 'un-paso-2025',
-    roles: ['Lighting Designer'],
-  },
+//   {
+//     id: 2,
+//     title: 'Un Paso 2025',
+//     subtitle: 'Ardiente Annual Production',
+//     folder: 'un-paso-2025',
+//     roles: ['Lighting Designer'],
+//   },
 ]
 
 const TheatreSection = () => (

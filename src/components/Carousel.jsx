@@ -26,11 +26,19 @@ const Carousel = ({ images, alt }) => {
 
   return (
     <div className="carousel">
-      <img
-        className="carousel-image"
-        src={images[current]}
-        alt={`${alt} — photo ${current + 1} of ${images.length}`}
-      />
+      <div
+        className="carousel-track"
+        style={{ transform: `translateX(-${current * 100}%)` }}
+      >
+        {images.map((src, i) => (
+          <img
+            key={i}
+            className="carousel-image"
+            src={src}
+            alt={`${alt} — photo ${i + 1} of ${images.length}`}
+          />
+        ))}
+      </div>
       {images.length > 1 && (
         <>
           <button className="carousel-btn carousel-btn--prev" onClick={handlePrev} aria-label="Previous photo">‹</button>

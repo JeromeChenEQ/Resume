@@ -1,6 +1,6 @@
-const Header = () => (
-  <header className="resume-header">
-    <h1>Jerome Chen En Quan</h1>
+const Header = ({ collapsed }) => (
+  <header className={`resume-header${collapsed ? ' header-collapsed' : ''}`}>
+    <h1>Hello Weary Traveller</h1>
   </header>
 )
 
