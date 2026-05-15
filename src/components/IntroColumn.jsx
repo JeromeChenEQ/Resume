@@ -1,5 +1,5 @@
 const stats = [
-  { value: '3.46', label: 'Current GPA' },
+  { value: '3.64', label: 'Current GPA' },
   { value: '5',    label: 'Projects' },
   { value: '5+',   label: 'Productions' },
   { value: '2028', label: 'Graduating' },
